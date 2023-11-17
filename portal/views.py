@@ -52,7 +52,7 @@ def index(request):
         'lenguajes': Lenguaje.objects.all()
     }
 
-    return render(request, "portal\index.html", contexto)
+    return render(request, "portal/index.html", contexto)
 
 
 def cursos(request, inicio):
